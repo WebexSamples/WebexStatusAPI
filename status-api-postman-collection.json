@@ -1,0 +1,228 @@
+{
+	"info": {
+		"_postman_id": "d3984ae7-1ce3-43c5-987b-2e82feca59f0",
+		"name": "Status API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "18525375"
+	},
+	"item": [
+		{
+			"name": "Incidents",
+			"item": [
+				{
+					"name": "Unresolved Incidents",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://status.webex.com/unresolved-incidents.json",
+							"protocol": "https",
+							"host": [
+								"status",
+								"webex",
+								"com"
+							],
+							"path": [
+								"unresolved-incidents.json"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "All Incidents",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://status.webex.com/all-incidents.json",
+							"protocol": "https",
+							"host": [
+								"status",
+								"webex",
+								"com"
+							],
+							"path": [
+								"all-incidents.json"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Scheduled Maintenances",
+			"item": [
+				{
+					"name": "Upcoming scheduled maintenances",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://status.webex.com/upcoming-scheduled-maintenances.json",
+							"protocol": "https",
+							"host": [
+								"status",
+								"webex",
+								"com"
+							],
+							"path": [
+								"upcoming-scheduled-maintenances.json"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Active scheduled maintenances",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://status.webex.com/active-scheduled-maintenances.json",
+							"protocol": "https",
+							"host": [
+								"status",
+								"webex",
+								"com"
+							],
+							"path": [
+								"active-scheduled-maintenances.json"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "All scheduled maintenances",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://status.webex.com/all-scheduled-maintenances.json",
+							"protocol": "https",
+							"host": [
+								"status",
+								"webex",
+								"com"
+							],
+							"path": [
+								"all-scheduled-maintenances.json"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Summary",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://status.webex.com/index.json",
+					"protocol": "https",
+					"host": [
+						"status",
+						"webex",
+						"com"
+					],
+					"path": [
+						"index.json"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Status",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://status.webex.com/status.json",
+					"protocol": "https",
+					"host": [
+						"status",
+						"webex",
+						"com"
+					],
+					"path": [
+						"status.json"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Components",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://status.webex.com/components.json",
+					"protocol": "https",
+					"host": [
+						"status",
+						"webex",
+						"com"
+					],
+					"path": [
+						"components.json"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
